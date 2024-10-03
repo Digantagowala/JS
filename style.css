@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(121, 150, 79);
+}
+
+
+
+
+
+#main{
+    background-color: gray;
+    width: 600px;
+    height:400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+/* #list{
+    width: 120px;
+    height: 100px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+} */
+#list {
+    width: 120px; /* or desired width */
+    height: 100px; /* or desired height */
+    border: 2px solid white;
+    position: relative; /* Ensure relative positioning for absolute children */
+    overflow: hidden; /* Hide overflow if needed */
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    margin: 5px 0;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+
+  border: 2px solid red;
+ background-color: lightgray;
+
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
